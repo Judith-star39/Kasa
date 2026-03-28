@@ -1,0 +1,42 @@
+footer {
+    background-color: black;
+    height: 210px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer img {
+    margin-top: 50px;
+    width: 150px;
+}
+
+footer p {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+    footer {
+        height: 209px; 
+        padding: 20px;
+    }
+
+    footer img {
+        margin-top: 20px;
+        width: 120px;
+    }
+
+    footer p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+        margin-top: 15px;
+        max-width: 120px;
+    }
+  }

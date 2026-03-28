@@ -1,0 +1,29 @@
+/* Header.css */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  height: 68px;
+  margin: 20px;
+}
+
+header img {
+  height: 36px;
+}
+
+.nav-header ul {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-header ul li a {
+  text-decoration: underline;
+  color: black;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+
