@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom";
-import LOGO from "/LOGO.svg"
-import "../styles/header.css"
+import { NavLink } from "react-router-dom";
+import LOGO from "/LOGO.svg";
+import "../styles/header.css";
 
 const Header = () => {
   return (
@@ -9,10 +9,14 @@ const Header = () => {
       <div className="nav-header">
         <ul>
           <li>
-            <Link to="/">Accueil</Link>
+            <NavLink to="/" className={({ isActive }) => isActive ? "active" : ""}>
+              Accueil
+            </NavLink>
           </li>
           <li>
-            <Link to="/a_propos">A Propos</Link>
+            <NavLink to="/a_propos" className={({ isActive }) => isActive ? "active" : ""}>
+              A Propos
+            </NavLink>
           </li>
         </ul>
       </div>

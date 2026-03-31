@@ -1,4 +1,5 @@
 /* Header.css */
+
 header {
   display: flex;
   align-items: center;
@@ -21,9 +22,48 @@ header img {
 }
 
 .nav-header ul li a {
-  text-decoration: underline;
+  position: relative;
+  text-decoration: none;
   color: black;
   font-size: 18px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat';
+  padding-bottom: 5px;
 }
 
+.nav-header ul li a.active {
+  text-decoration: underline; 
+} 
+
+.nav-header ul li a.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+}
+
+
+
+@media (max-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+
+  header img {
+    width: 120px; 
+  }
+
+  .nav-header ul {
+    display: flex;
+    gap: 15px;
+  }
+
+  .nav-header a {
+    font-size: 12px;
+    text-transform: uppercase; 
+  }
+}

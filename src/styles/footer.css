@@ -7,7 +7,9 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: auto; 
 }
+
 
 footer img {
     margin-top: 50px;
@@ -20,6 +22,7 @@ footer p {
     font-weight: 500;
     margin-top: 30px;
 }
+
 
 @media (max-width: 768px) {
     footer {

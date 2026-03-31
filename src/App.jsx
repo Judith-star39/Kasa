@@ -14,8 +14,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/a_propos" element={<Apropos />} />
-        <Route path="*" element={<Page404 />} />
         <Route path="/logement/:id" element={<Logement />} />
+        <Route path="*" element={<Page404 />} />
       </Routes>
 
       <Footer />

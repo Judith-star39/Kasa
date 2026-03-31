@@ -1,6 +1,6 @@
 import "../styles/banner.css";
 
-const Banner = () => {
+export default function Banner ()  {
   return (
     <section className="main-content">
         <div className="banner-img">
@@ -15,4 +15,3 @@ const Banner = () => {
 
 }
 
-export default Banner;
