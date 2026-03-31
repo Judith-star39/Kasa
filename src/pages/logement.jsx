@@ -60,10 +60,11 @@ export default function Logement() {
                     />
                     ))}
                 </div>
-            </div>
-            <div className="host">
-                <p className="host-name">{logement.host.name}</p>
-                <img src={logement.host.picture} alt="host" />
+        
+                <div className="host">
+                    <p className="host-name">{logement.host.name}</p>
+                    <img src={logement.host.picture} alt="host" />
+                </div>
             </div>
         </div>
         
