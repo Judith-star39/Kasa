@@ -6,7 +6,7 @@ export default function Banner ()  {
         <div className="banner-img">
             <img src="/bannerImg.png" alt="accueil" />
             <div className="banner-text">
-                <h1>Chez vous, partout ailleurs</h1>
+                <h1>Chez vous, partout et ailleurs</h1>
             </div>
         </div>
     </section>

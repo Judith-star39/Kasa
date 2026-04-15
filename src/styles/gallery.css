@@ -32,7 +32,7 @@
   font-size: 18px;
   font-family: 'Montserrat';
   margin: 0;
-  z-index: 1; /* ← ajoute juste cette ligne */
+  z-index: 1; 
 }
 
 /* Dégradé sombre en bas de chaque carte */
@@ -54,7 +54,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 20px;
+    padding: 0;
     background: none;
   }
 
